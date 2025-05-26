@@ -1,0 +1,10 @@
+#daos_control.yml 
+name: daos_server
+port: 10001
+hostlist: ['localhost']
+
+transport_config:
+    allow_insecure: true
+    ca_cert: /etc/daos/certs/daosCA.crt
+    cert: /etc/daos/certs/admin.crt
+    key: /etc/daos/certs/admin.key
